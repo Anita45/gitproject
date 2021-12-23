@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Multi_browser3]">
+  <test thread-count="5" name=" FIREFOX_Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.atipune.testngframe.basics.MultiBrowser_3">
+        <methods>
+          <include name="multibrowesr" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.atipune.testngframe.basics.MultiBrowser_3 -->
+    </classes>
+  </test> <!--  FIREFOX_Test(failed) -->
+</suite> <!-- Failed suite [Multi_browser3] -->
